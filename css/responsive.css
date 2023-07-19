@@ -1,4 +1,19 @@
 @media screen and (max-width:425px) {
+    h3 {
+        color: #0B0223;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .h1-description{
+        font-size: 10px;
+    }
+    .description{
+        font-size: 12px;
+    }
     .nav-container{
         flex-direction: column;
     }
@@ -22,5 +37,17 @@
     }
     .games-container {
         flex-direction: column;
+        padding: 0 20px;
+    }
+    .games p {
+        text-align: center;
+    }
+    .play-online-container{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+    .play-online-img {
+        width: 100px;
+        
     }
 }

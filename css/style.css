@@ -179,10 +179,9 @@ h1 {
 }
 
 .play-online-img {
-    width: 710px;
-    height: 650px;
     display: block;
     position: relative;
+    width: 50%;
 }
 
 .small-img {
@@ -190,7 +189,7 @@ h1 {
     background: lightgray -7.209px 0px / 114.78% 100% no-repeat;
     position: absolute;
     top: 63%;
-    left: 75%;
+    left: 74%; 
 
 }
 
