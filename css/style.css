@@ -2,6 +2,7 @@
 * {
     font-family: Work Sans;
     box-sizing: border-box;
+    margin: 0px 0px;
 }
 
 .gradient-text {
@@ -249,7 +250,6 @@ h1 {
     margin: 0 auto;
     text-align: center;
     background: #0B0223;
-    border: 1px solid blue;
     padding: 90px 0px;
 }
 
