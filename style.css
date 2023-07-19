@@ -177,7 +177,8 @@ h1 {
 
 }
 
-.play-online-img {width: 710px;
+.play-online-img {
+    width: 710px;
     height: 650px;
     display: block;
     position: relative;
@@ -198,4 +199,54 @@ h1 {
 
 .play-online-content h3 {
     width: 426px;
+}
+
+/* games category */
+.category {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 120px 0px;
+}
+
+.games-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn-cat {
+    border-radius: 50px;
+    color: #0B0223;
+    background-color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    border-style: none;
+
+}
+.btn-cat:hover{
+    border-style: solid;
+    border-color: #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.games-category img {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+/* footer */
+.footer{
+    margin: 125px auto;
+
+    border: 1px solid blue;
 }
