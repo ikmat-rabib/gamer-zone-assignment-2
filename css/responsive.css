@@ -4,50 +4,118 @@
         font-size: 25px;
         font-weight: 700;
     }
+
     h1 {
         font-size: 40px;
         font-weight: 800;
     }
-    .h1-description{
+
+    .h1-description {
         font-size: 10px;
     }
-    .description{
+
+    .description {
         font-size: 12px;
     }
-    .nav-container{
+
+    .nav-container {
         flex-direction: column;
     }
-    .nav-menu{
+
+    .nav-menu {
         flex-direction: column;
         width: 100%;
     }
+
     .nav-menu a {
         margin-top: 30px;
     }
+
     .banner-container {
         flex-direction: column-reverse;
         padding: 0px 20px;
         justify-content: center;
     }
-    .banner-content, .banner-img{
+
+    .banner-content,
+    .banner-img {
         width: 100%;
         text-align: center;
         margin-bottom: 50px;
-    
+
     }
+
     .games-container {
         flex-direction: column;
         padding: 0 20px;
     }
+.games{
+    margin-bottom: 10px;
+}
     .games p {
         text-align: center;
+        width: 100%;
     }
-    .play-online-container{
+
+    /* play online */
+    .play-online-container {
         flex-direction: column-reverse;
         padding: 0 20px;
+        margin: 20px 0px;
     }
+
+    .play-online-content {
+        width: 100%;
+        text-align: center;
+        margin: 30px 0px;
+        padding: 0%;
+    }
+
     .play-online-img {
-        width: 100px;
-        
+        display: flex;
+        justify-content: center;
     }
+
+    .big-image {
+        height: 300px;
+    }
+
+    .small-img {
+        height: 140px;
+        border-radius: 8px;
+        background: lightgray -7.209px 0px / 114.78% 100% no-repeat;
+        position: absolute;
+        top: 63%;
+        left: 92%;
+
+    }
+
+    /* game category */
+
+.category{
+    padding: 20px 10px;
+    margin-top: 100px;
 }
+.games-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.btn-cat {
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    border: 1px solid transparent;
+}
+.games-category .btn-cat img{
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px;
+    
+}
+}
+
+

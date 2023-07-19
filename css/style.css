@@ -189,16 +189,17 @@ h1 {
     background: lightgray -7.209px 0px / 114.78% 100% no-repeat;
     position: absolute;
     top: 63%;
-    left: 74%; 
+    left: 74%;
 
 }
 
 .play-online-content {
-    width: 483px;
+    width: 50%;
+    padding-left: 20%;
 }
 
 .play-online-content h3 {
-    width: 426px;
+    
 }
 
 /* games category */
