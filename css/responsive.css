@@ -61,7 +61,7 @@
     .play-online-container {
         flex-direction: column-reverse;
         padding: 0 20px;
-        margin: 20px 0px;
+        margin: 0px 0px;
     }
 
     .play-online-content {
