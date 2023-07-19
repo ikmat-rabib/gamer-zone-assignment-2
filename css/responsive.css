@@ -1,3 +1,26 @@
 @media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-menu{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-menu a {
+        margin-top: 30px;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 0px 20px;
+        justify-content: center;
+    }
+    .banner-content, .banner-img{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
     
+    }
+    .games-container {
+        flex-direction: column;
+    }
 }
