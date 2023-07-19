@@ -17,7 +17,14 @@
     .description {
         font-size: 12px;
     }
-
+    .logo-container p {
+        font-size: 45px;
+        color: #0B0223;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
     .nav-container {
         flex-direction: column;
     }
@@ -25,6 +32,7 @@
     .nav-menu {
         flex-direction: column;
         width: 100%;
+    font-size: 12px;
     }
 
     .nav-menu a {
@@ -35,6 +43,7 @@
         flex-direction: column-reverse;
         padding: 0px 20px;
         justify-content: center;
+        margin-bottom: 0px;
     }
 
     .banner-content,
@@ -44,6 +53,24 @@
         margin-bottom: 50px;
 
     }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 40px;
+    }
+    .btn-pink {
+        border-radius: 24px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    
+    .btn-blue {
+        padding: 10px 20px;
+        border-radius: 24px;
+        font-size: 12px;
+    }
+    
 
     .games-container {
         flex-direction: column;
