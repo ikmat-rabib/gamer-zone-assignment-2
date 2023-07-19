@@ -118,6 +118,7 @@ h1 {
     font-size: 20px;
     font-weight: 600;
     border: 0px;
+    cursor: pointer;
 }
 
 .btn-blue {
@@ -128,6 +129,7 @@ h1 {
     font-size: 20px;
     font-weight: 600;
     border: 0px;
+    cursor: pointer;
 }
 
 .banner-img {
@@ -152,7 +154,48 @@ h1 {
     margin-top: 48px;
 }
 
+.games {
+    cursor: pointer;
+}
+
 .games p {
     text-align: left;
     width: 342px;
+}
+
+
+
+
+/* play online games */
+
+.play-online-container {
+    max-width: 1440px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.play-online-img {width: 710px;
+    height: 650px;
+    display: block;
+    position: relative;
+}
+
+.small-img {
+    border-radius: 8px;
+    background: lightgray -7.209px 0px / 114.78% 100% no-repeat;
+    position: absolute;
+    top: 63%;
+    left: 75%;
+
+}
+
+.play-online-content {
+    width: 483px;
+}
+
+.play-online-content h3 {
+    width: 426px;
 }
