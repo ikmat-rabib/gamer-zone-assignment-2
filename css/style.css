@@ -154,7 +154,7 @@ h1 {
 
 .online-games {
     max-width: 1440px;
-    margin: 60px auto;
+    margin: 0px auto 0px;
     text-align: center;
 }
 
@@ -205,9 +205,6 @@ h1 {
 }
 
 
-
-
-
 /* play online games */
 
 .play-online-container {
@@ -244,6 +241,7 @@ h1 {
 .play-online-content h3 {
     
 }
+
 
 /* games category */
 .category {
@@ -311,6 +309,8 @@ h1 {
     padding: 10px;
     flex-wrap: wrap;
     gap: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-menu a {
@@ -347,7 +347,10 @@ h1 {
     font-weight: 500;
 }
 .copywright{
-    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
 }
 .copywright p{
     color: rgba(255, 255, 255, 0.60);
