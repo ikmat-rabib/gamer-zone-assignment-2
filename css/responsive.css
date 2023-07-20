@@ -16,6 +16,7 @@
 
     .description {
         font-size: 12px;
+        line-height: 1rem;
     }
     .logo-container p {
         font-size: 45px;
@@ -74,7 +75,7 @@
         font-size: 12px;
     }
     
-
+/* online games */
     .games-container {
         flex-direction: column;
         padding: 0 20px;
